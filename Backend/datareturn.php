@@ -3,7 +3,7 @@ header('Content-Type:application/json'); // 返回头类型定义
 date_default_timezone_set('Asia/Shanghai'); // php时区修正
 $time = date("Y/m/d G:i:s");
 $servername = "localhost"; // 服务器地址
-$username = "root"; // 用户名
+$username = "YourUsernameHere"; // 用户名
 $password = "YourPassWordHere"; // 密码
 $dbName = "YourDBNameHere"; // 数据库名
 $conn = mysqli_connect($servername,$username,$password,$dbName); // 数据库连接
